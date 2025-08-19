@@ -1,0 +1,133 @@
+{
+  "version": "v0",
+  "alias": "Test",
+  "output": {
+    "matlab": true
+  },
+  "task": {
+    "name": "TESS",
+    "queued": false,
+    "version": "v0",
+    "type": "TE",
+    "files": [
+      ""
+    ],
+    "options": {
+      "air": {
+        "capacity": null,
+        "density": null,
+        "temperature": 11
+      },
+      "blood": {
+        "capacity": 1057,
+        "density": 3600,
+        "temperature": 200
+      },
+      "heatingtime": 40
+    },
+    "mask": {
+      "type": "file",
+      "id": 7,
+      "options": {
+        "type": "s3",
+        "filename": "tess_ico.ico",
+        "options": {},
+        "multiraid": false,
+        "bucket": "mrod",
+        "key": "722a4add-80be-40d6-b2b4-062bad4f00dd_tess_ico.ico",
+        "vendor": "Siemens"
+      }
+    },
+    "materialDensity": {
+      "type": "file",
+      "id": 8,
+      "options": {
+        "type": "s3",
+        "filename": "tess_ico.ico",
+        "options": {},
+        "multiraid": false,
+        "bucket": "mrod",
+        "key": "faa97e88-6af4-4f2f-93be-0d98f0ac03a6_tess_ico.ico",
+        "vendor": "Siemens"
+      }
+    },
+    "heatCapacity": {
+      "type": "file",
+      "id": 7,
+      "options": {
+        "type": "s3",
+        "filename": "tess_ico.ico",
+        "options": {},
+        "multiraid": false,
+        "bucket": "mrod",
+        "key": "722a4add-80be-40d6-b2b4-062bad4f00dd_tess_ico.ico",
+        "vendor": "Siemens"
+      }
+    },
+    "bloodPerfusion": {
+      "type": "file",
+      "id": 7,
+      "options": {
+        "type": "s3",
+        "filename": "tess_ico.ico",
+        "options": {},
+        "multiraid": false,
+        "bucket": "mrod",
+        "key": "722a4add-80be-40d6-b2b4-062bad4f00dd_tess_ico.ico",
+        "vendor": "Siemens"
+      }
+    },
+    "thermalConductivity": {
+      "type": "file",
+      "id": 7,
+      "options": {
+        "type": "s3",
+        "filename": "tess_ico.ico",
+        "options": {},
+        "multiraid": false,
+        "bucket": "mrod",
+        "key": "722a4add-80be-40d6-b2b4-062bad4f00dd_tess_ico.ico",
+        "vendor": "Siemens"
+      }
+    },
+    "metabolismHeat": {
+      "type": "file",
+      "id": 8,
+      "options": {
+        "type": "s3",
+        "filename": "tess_ico.ico",
+        "options": {},
+        "multiraid": false,
+        "bucket": "mrod",
+        "key": "faa97e88-6af4-4f2f-93be-0d98f0ac03a6_tess_ico.ico",
+        "vendor": "Siemens"
+      }
+    },
+    "SAR": {
+      "type": "file",
+      "id": 9,
+      "options": {
+        "type": "s3",
+        "filename": "tess_ico.ico",
+        "options": {},
+        "multiraid": false,
+        "bucket": "mrod",
+        "key": "478a4d0b-7500-4f08-a5b1-7795ce0ade40_tess_ico.ico",
+        "vendor": "Siemens"
+      }
+    },
+    "TOld": {
+      "type": "file",
+      "id": 8,
+      "options": {
+        "type": "s3",
+        "filename": "tess_ico.ico",
+        "options": {},
+        "multiraid": false,
+        "bucket": "mrod",
+        "key": "faa97e88-6af4-4f2f-93be-0d98f0ac03a6_tess_ico.ico",
+        "vendor": "Siemens"
+      }
+    }
+  }
+}
