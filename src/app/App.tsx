@@ -1,4 +1,4 @@
-import "./mtrk.scss";
+import "./App.scss";
 import 'bootstrap';
 import MainRouter from './MainRouter';
 import {Provider} from "react-redux";

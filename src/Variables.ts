@@ -23,13 +23,14 @@ export const JOBS_API = `${CLOUDMR_SERVER}/pipeline/queue_job`;
 
 export const UNZIP = `${CLOUDMR_SERVER}/unzip`;
 
-// APP Name
+// APP Name: change this for the respective app
 export const APP_NAME = 'TESS';
 
 // API_TOKEN
 // export const API_TOKEN = ''
 
-export const APP_BUG_REPORT = 'https://github.com/cloudmrhub-com/tess/issues';
+// replace the url to a relevant Bug Report link for the respective app
+export const APP_BUG_REPORT = 'https://github.com/cloudmrhub-com/';
 // Obsolete routes
 export const JOBS_RENAME_API = 'http://localhost:5010/jobs/rename';
 // export const JOBS_DELETE_API =  'http://localhost:5010/jobs/delete';

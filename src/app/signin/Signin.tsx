@@ -9,8 +9,9 @@ import Typography from '@mui/material/Typography';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
 import "./Signin.css";
 // @ts-ignore
-import appIcon from '../../assets/mtrk_color.png';
+import appIcon from '../../assets/appIcon.png'; // replace the logo in src/assets/appIcon
 import {SigninDataType} from "../../features/authenticate/authenticateActionCreation";
+import { CmrLabel } from 'cloudmr-ux';
 
 const theme = createTheme({palette: {
         primary: {
@@ -36,8 +37,9 @@ export default function Signin({signInCallback}: {signInCallback: (credentials: 
                     <div id="welcome-logo">
                         <div style={{margin:'auto', position:'relative', bottom:'15pt', width:'100%', display: 'flex',
                             justifyContent:'center', alignItems: 'center'}}>
-                            <img src={appIcon} className="img-fluid" style={{margin:'auto', height:'55px'}} alt=''/>
-                            <span id="brandingText">mtrk</span>
+                            {/* Uncomment to show App Logo */}
+                            {/* <img src={appIcon} className="img-fluid" style={{margin:'auto', height:'55px'}} alt=''/> */}
+                            <CmrLabel>App Name</CmrLabel>
                         </div>
                     </div>
 

@@ -3,6 +3,7 @@ import './Header.css';
 import { Link, useNavigate } from 'react-router-dom';
 import { APP_BUG_REPORT } from "../../../../Variables";
 import { Container, Toolbar } from '@mui/material';
+import { CmrLabel } from 'cloudmr-ux';
 
 interface MenuItem {
     path: string
@@ -57,8 +58,9 @@ const Header = ({ siteTitle, authentication, handleLogout, menuList }: {
                             justifyContent: 'center',
                             alignItems: 'center'
                         }}>
-                            <img src={process.env.PUBLIC_URL + '/mtrk_icon.ico'} alt="Logo" style={{ height: '40px', width: '40px' }} /> {/* adjust height and width as needed */}
-                            <span id="brandingTextNav">mtrk</span>
+                            {/* Uncomment to display the app logo */}
+                            {/* <img src={process.env.PUBLIC_URL + '/app_icon.ico'} alt="Logo" style={{ height: '40px', width: '40px' }} /> adjust height and width as needed */}
+                            <CmrLabel>App Name</CmrLabel>
                         </div>
                     </Link>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse"
