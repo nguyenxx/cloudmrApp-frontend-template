@@ -78,7 +78,6 @@ const Header = ({ siteTitle, authentication, handleLogout, menuList }: {
                                         switch (menuItem.title) {
                                             case 'Bug Report':
                                                 window.open(APP_BUG_REPORT)
-                                                // window.location.href='https://github.com/cloudmrhub-com/mroptimum/issues';
                                                 return;
                                         }
                                         event.preventDefault();
