@@ -39,7 +39,7 @@ const theme = createTheme({
   }
 });
 
-function TESS(props: any) {
+function App(props: any) {
     return (
         <Provider store={store}>
             <PersistGate loading={null} persistor={persistor}>
@@ -53,4 +53,4 @@ function TESS(props: any) {
     );
 }
 
-export default TESS;
+export default App;
