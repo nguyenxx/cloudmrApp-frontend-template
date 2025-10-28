@@ -1908,17 +1908,17 @@
     "@rollup/rollup-linux-x64-gnu" "^4.6.1"
 
 "@niivue/niivue@^0.61.0":
-  "integrity" "sha512-QZCfYLuUATcbx2gtFVIkbCO52DW3SleZYNoNUKAmMJXyjTJLgu+n/+IQubYJ2TVfDuvgLz0ffe6jzHgdUErqaw=="
-  "resolved" "https://registry.npmjs.org/@niivue/niivue/-/niivue-0.61.0.tgz"
-  "version" "0.61.0"
+  version "0.61.0"
+  resolved "https://registry.npmjs.org/@niivue/niivue/-/niivue-0.61.0.tgz"
+  integrity sha512-QZCfYLuUATcbx2gtFVIkbCO52DW3SleZYNoNUKAmMJXyjTJLgu+n/+IQubYJ2TVfDuvgLz0ffe6jzHgdUErqaw==
   dependencies:
     "@lukeed/uuid" "^2.0.1"
     "@ungap/structured-clone" "^1.2.0"
-    "array-equal" "^1.0.2"
-    "fflate" "^0.8.2"
-    "gl-matrix" "^3.4.3"
-    "nifti-reader-js" "^0.8.0"
-    "zarrita" "^0.5.0"
+    array-equal "^1.0.2"
+    fflate "^0.8.2"
+    gl-matrix "^3.4.3"
+    nifti-reader-js "^0.8.0"
+    zarrita "^0.5.0"
   optionalDependencies:
     "@rollup/rollup-linux-x64-gnu" "^4.18.1"
 
@@ -2190,6 +2190,11 @@
     "@types/estree" "0.0.39"
     estree-walker "^1.0.1"
     picomatch "^2.2.2"
+
+"@rollup/rollup-linux-x64-gnu@^4.18.1":
+  version "4.52.5"
+  resolved "https://registry.yarnpkg.com/@rollup/rollup-linux-x64-gnu/-/rollup-linux-x64-gnu-4.52.5.tgz#a151cb1234cc9b2cf5e8cfc02aa91436b8f9e278"
+  integrity sha512-hXGLYpdhiNElzN770+H2nlx+jRog8TyynpTVzdlc6bndktjKWyZyiCsuDAlpd+j+W+WNqfcyAWz9HxxIGfZm1Q==
 
 "@rollup/rollup-linux-x64-gnu@^4.6.1":
   version "4.46.3"
@@ -3000,25 +3005,18 @@
   resolved "https://registry.npmjs.org/@xtuc/long/-/long-4.2.2.tgz"
   integrity sha512-NuHqBY1PB/D8xU6s/thBgOAiAP7HOYDQ32+BFZILJ8ivkUkAHQnWfn6WhL79Owj1qmUnoN/YPhktdIoucipkAQ==
 
-<<<<<<< HEAD
 "@zarrita/storage@^0.1.1":
-  "integrity" "sha512-6/NUCvpzsIxfxeMv59jRTl/bOZg3GZfMP6iR8EIqrTaaE0S2jLL/ceX1OxcFBKnuA8/Z2YmgX4SFBHwFGrCcsw=="
-  "resolved" "https://registry.npmjs.org/@zarrita/storage/-/storage-0.1.1.tgz"
-  "version" "0.1.1"
+  version "0.1.1"
+  resolved "https://registry.npmjs.org/@zarrita/storage/-/storage-0.1.1.tgz"
+  integrity sha512-6/NUCvpzsIxfxeMv59jRTl/bOZg3GZfMP6iR8EIqrTaaE0S2jLL/ceX1OxcFBKnuA8/Z2YmgX4SFBHwFGrCcsw==
   dependencies:
-    "reference-spec-reader" "^0.2.0"
-    "unzipit" "^1.4.3"
+    reference-spec-reader "^0.2.0"
+    unzipit "^1.4.3"
 
-"abab@^2.0.3", "abab@^2.0.5":
-  "integrity" "sha512-j2afSsaIENvHZN2B8GOpF566vZ5WVk5opAiMTvWgaQT8DkbOqsTfvNAvHoRGU2zzP8cPoqys+xHTRDWW8L+/BA=="
-  "resolved" "https://registry.npmjs.org/abab/-/abab-2.0.6.tgz"
-  "version" "2.0.6"
-=======
 abab@^2.0.3, abab@^2.0.5:
   version "2.0.6"
   resolved "https://registry.npmjs.org/abab/-/abab-2.0.6.tgz"
   integrity sha512-j2afSsaIENvHZN2B8GOpF566vZ5WVk5opAiMTvWgaQT8DkbOqsTfvNAvHoRGU2zzP8cPoqys+xHTRDWW8L+/BA==
->>>>>>> origin/dev-pycloudmr
 
 accepts@~1.3.4, accepts@~1.3.8:
   version "1.3.8"
@@ -5409,27 +5407,15 @@ fflate@*, fflate@^0.7.4:
   resolved "https://registry.npmjs.org/fflate/-/fflate-0.7.4.tgz"
   integrity sha512-5u2V/CDW15QM1XbbgS+0DfPxVB+jUKhWEKuuFuHncbk3tEEqzmoXL+2KyOFuKGqOnmdIy0/davWF1CkuwtibCw==
 
-<<<<<<< HEAD
-"fflate@^0.8.0":
-  "integrity" "sha512-cPJU47OaAoCbg0pBvzsgpTPhmhqI5eJjh/JIu8tPj5q+T7iLvW/JAYUqmE7KOB4R1ZyEhzBaIQpQpardBF5z8A=="
-  "resolved" "https://registry.npmjs.org/fflate/-/fflate-0.8.2.tgz"
-  "version" "0.8.2"
+fflate@^0.8.0, fflate@^0.8.2:
+  version "0.8.2"
+  resolved "https://registry.npmjs.org/fflate/-/fflate-0.8.2.tgz"
+  integrity sha512-cPJU47OaAoCbg0pBvzsgpTPhmhqI5eJjh/JIu8tPj5q+T7iLvW/JAYUqmE7KOB4R1ZyEhzBaIQpQpardBF5z8A==
 
-"fflate@^0.8.2":
-  "integrity" "sha512-cPJU47OaAoCbg0pBvzsgpTPhmhqI5eJjh/JIu8tPj5q+T7iLvW/JAYUqmE7KOB4R1ZyEhzBaIQpQpardBF5z8A=="
-  "resolved" "https://registry.npmjs.org/fflate/-/fflate-0.8.2.tgz"
-  "version" "0.8.2"
-
-"file-entry-cache@^6.0.1":
-  "integrity" "sha512-7Gps/XWymbLk2QLYK4NzpMOrYjMhdIxXuIvy2QBsLE6ljuodKvdkWs/cpyJJ3CVIVpH0Oi1Hvg1ovbMzLdFBBg=="
-  "resolved" "https://registry.npmjs.org/file-entry-cache/-/file-entry-cache-6.0.1.tgz"
-  "version" "6.0.1"
-=======
 file-entry-cache@^6.0.1:
   version "6.0.1"
   resolved "https://registry.npmjs.org/file-entry-cache/-/file-entry-cache-6.0.1.tgz"
   integrity sha512-7Gps/XWymbLk2QLYK4NzpMOrYjMhdIxXuIvy2QBsLE6ljuodKvdkWs/cpyJJ3CVIVpH0Oi1Hvg1ovbMzLdFBBg==
->>>>>>> origin/dev-pycloudmr
   dependencies:
     flat-cache "^3.0.4"
 
@@ -7636,24 +7622,17 @@ nifti-reader-js@^0.6.8:
   dependencies:
     fflate "*"
 
-<<<<<<< HEAD
-"nifti-reader-js@^0.8.0":
-  "integrity" "sha512-iO1iIhQDfKniy+l/86HfOPte7So+SxBmBiMSiUB2VXU7z4hSewMTlE3h0fCgfzfXvMUa+ilzLTJ2ZHmtFw6EWw=="
-  "resolved" "https://registry.npmjs.org/nifti-reader-js/-/nifti-reader-js-0.8.0.tgz"
-  "version" "0.8.0"
+nifti-reader-js@^0.8.0:
+  version "0.8.0"
+  resolved "https://registry.npmjs.org/nifti-reader-js/-/nifti-reader-js-0.8.0.tgz"
+  integrity sha512-iO1iIhQDfKniy+l/86HfOPte7So+SxBmBiMSiUB2VXU7z4hSewMTlE3h0fCgfzfXvMUa+ilzLTJ2ZHmtFw6EWw==
   dependencies:
-    "fflate" "^0.8.2"
+    fflate "^0.8.2"
 
-"no-case@^3.0.4":
-  "integrity" "sha512-fgAN3jGAh+RoxUGZHTSOLJIqUc2wmoBwGR4tbpNAKmmovFoWq0OdRkb0VkldReO2a2iBT/OEulG9XSUc10r3zg=="
-  "resolved" "https://registry.npmjs.org/no-case/-/no-case-3.0.4.tgz"
-  "version" "3.0.4"
-=======
 no-case@^3.0.4:
   version "3.0.4"
   resolved "https://registry.npmjs.org/no-case/-/no-case-3.0.4.tgz"
   integrity sha512-fgAN3jGAh+RoxUGZHTSOLJIqUc2wmoBwGR4tbpNAKmmovFoWq0OdRkb0VkldReO2a2iBT/OEulG9XSUc10r3zg==
->>>>>>> origin/dev-pycloudmr
   dependencies:
     lower-case "^2.0.2"
     tslib "^2.0.3"
@@ -7714,24 +7693,17 @@ nth-check@^2.0.1:
   dependencies:
     boolbase "^1.0.0"
 
-<<<<<<< HEAD
-"numcodecs@^0.3.2":
-  "integrity" "sha512-6YSPnmZgg0P87jnNhi3s+FVLOcIn3y+1CTIgUulA3IdASzK9fJM87sUFkpyA+be9GibGRaST2wCgkD+6U+fWKw=="
-  "resolved" "https://registry.npmjs.org/numcodecs/-/numcodecs-0.3.2.tgz"
-  "version" "0.3.2"
+numcodecs@^0.3.2:
+  version "0.3.2"
+  resolved "https://registry.npmjs.org/numcodecs/-/numcodecs-0.3.2.tgz"
+  integrity sha512-6YSPnmZgg0P87jnNhi3s+FVLOcIn3y+1CTIgUulA3IdASzK9fJM87sUFkpyA+be9GibGRaST2wCgkD+6U+fWKw==
   dependencies:
-    "fflate" "^0.8.0"
+    fflate "^0.8.0"
 
-"nwsapi@^2.2.0":
-  "integrity" "sha512-/ieB+mDe4MrrKMT8z+mQL8klXydZWGR5Dowt4RAGKbJ3kIGEx3X4ljUo+6V73IXtUPWgfOlU5B9MlGxFO5T+cA=="
-  "resolved" "https://registry.npmjs.org/nwsapi/-/nwsapi-2.2.20.tgz"
-  "version" "2.2.20"
-=======
 nwsapi@^2.2.0:
   version "2.2.20"
   resolved "https://registry.npmjs.org/nwsapi/-/nwsapi-2.2.20.tgz"
   integrity sha512-/ieB+mDe4MrrKMT8z+mQL8klXydZWGR5Dowt4RAGKbJ3kIGEx3X4ljUo+6V73IXtUPWgfOlU5B9MlGxFO5T+cA==
->>>>>>> origin/dev-pycloudmr
 
 object-assign@^4.0.1, object-assign@^4.1.1:
   version "4.1.1"
@@ -7865,26 +7837,19 @@ open@^8.0.9, open@^8.4.0:
     is-docker "^2.1.1"
     is-wsl "^2.2.0"
 
-<<<<<<< HEAD
-"openmedview@^0.1.0":
-  "integrity" "sha512-UOMIT+wLI7dg5whyvpULmtMbSPCdcjk3fj6JSUNtU+92zOYL5pROkW4QbEThKUyYsxK4rZDSgcDIZ4txHvxTgQ=="
-  "resolved" "https://registry.npmjs.org/openmedview/-/openmedview-0.1.0.tgz"
-  "version" "0.1.0"
+openmedview@^0.1.0:
+  version "0.1.0"
+  resolved "https://registry.npmjs.org/openmedview/-/openmedview-0.1.0.tgz"
+  integrity sha512-UOMIT+wLI7dg5whyvpULmtMbSPCdcjk3fj6JSUNtU+92zOYL5pROkW4QbEThKUyYsxK4rZDSgcDIZ4txHvxTgQ==
   dependencies:
     "@niivue/niivue" "^0.61.0"
-    "react" "^17.0.0"
-    "react-dom" "^18.2.0"
+    react "^17.0.0"
+    react-dom "^18.2.0"
 
-"optionator@^0.8.1":
-  "integrity" "sha512-+IW9pACdk3XWmmTXG8m3upGUJst5XRGzxMRjXzAuJ1XnIFNvfhjjIuYkDvysnPQ7qzqVzLt78BCruntqRhWQbA=="
-  "resolved" "https://registry.npmjs.org/optionator/-/optionator-0.8.3.tgz"
-  "version" "0.8.3"
-=======
 optionator@^0.8.1:
   version "0.8.3"
   resolved "https://registry.npmjs.org/optionator/-/optionator-0.8.3.tgz"
   integrity sha512-+IW9pACdk3XWmmTXG8m3upGUJst5XRGzxMRjXzAuJ1XnIFNvfhjjIuYkDvysnPQ7qzqVzLt78BCruntqRhWQbA==
->>>>>>> origin/dev-pycloudmr
   dependencies:
     deep-is "~0.1.3"
     fast-levenshtein "~2.0.6"
@@ -9382,6 +9347,14 @@ react-transition-group@^4.3.0, react-transition-group@^4.4.5:
     loose-envify "^1.4.0"
     prop-types "^15.6.2"
 
+react@^17.0.0:
+  version "17.0.2"
+  resolved "https://registry.npmjs.org/react/-/react-17.0.2.tgz"
+  integrity sha512-gnhPt75i/dq/z3/6q/0asP78D0u592D5L1pd7M8P+dck6Fu/jJeL6iVVK23fptSUZj8Vjf++7wXA8UNclGQcbA==
+  dependencies:
+    loose-envify "^1.1.0"
+    object-assign "^4.1.1"
+
 react@^18.2.0:
   version "18.3.1"
   resolved "https://registry.npmjs.org/react/-/react-18.3.1.tgz"
@@ -9389,25 +9362,10 @@ react@^18.2.0:
   dependencies:
     loose-envify "^1.1.0"
 
-<<<<<<< HEAD
-"react@^17.0.0":
-  "integrity" "sha512-gnhPt75i/dq/z3/6q/0asP78D0u592D5L1pd7M8P+dck6Fu/jJeL6iVVK23fptSUZj8Vjf++7wXA8UNclGQcbA=="
-  "resolved" "https://registry.npmjs.org/react/-/react-17.0.2.tgz"
-  "version" "17.0.2"
-  dependencies:
-    "loose-envify" "^1.1.0"
-    "object-assign" "^4.1.1"
-
-"reactcss@^1.2.0":
-  "integrity" "sha512-KiwVUcFu1RErkI97ywr8nvx8dNOpT03rbnma0SSalTYjkrPYaEajR4a/MRt6DZ46K6arDRbWMNHF+xH7G7n/8A=="
-  "resolved" "https://registry.npmjs.org/reactcss/-/reactcss-1.2.3.tgz"
-  "version" "1.2.3"
-=======
 reactcss@^1.2.0:
   version "1.2.3"
   resolved "https://registry.npmjs.org/reactcss/-/reactcss-1.2.3.tgz"
   integrity sha512-KiwVUcFu1RErkI97ywr8nvx8dNOpT03rbnma0SSalTYjkrPYaEajR4a/MRt6DZ46K6arDRbWMNHF+xH7G7n/8A==
->>>>>>> origin/dev-pycloudmr
   dependencies:
     lodash "^4.0.1"
 
@@ -9482,22 +9440,15 @@ redux@^5.0.1:
   resolved "https://registry.npmjs.org/redux/-/redux-5.0.1.tgz"
   integrity sha512-M9/ELqF6fy8FwmkpnF0S3YKOqMyoWJ4+CS5Efg2ct3oY9daQvd/Pc71FpGZsVsbl3Cpb+IIcjBDUnnyBdQbq4w==
 
-<<<<<<< HEAD
-"reference-spec-reader@^0.2.0":
-  "integrity" "sha512-q0mfCi5yZSSHXpCyxjgQeaORq3tvDsxDyzaadA/5+AbAUwRyRuuTh0aRQuE/vAOt/qzzxidJ5iDeu1cLHaNBlQ=="
-  "resolved" "https://registry.npmjs.org/reference-spec-reader/-/reference-spec-reader-0.2.0.tgz"
-  "version" "0.2.0"
+reference-spec-reader@^0.2.0:
+  version "0.2.0"
+  resolved "https://registry.npmjs.org/reference-spec-reader/-/reference-spec-reader-0.2.0.tgz"
+  integrity sha512-q0mfCi5yZSSHXpCyxjgQeaORq3tvDsxDyzaadA/5+AbAUwRyRuuTh0aRQuE/vAOt/qzzxidJ5iDeu1cLHaNBlQ==
 
-"reflect.getprototypeof@^1.0.6", "reflect.getprototypeof@^1.0.9":
-  "integrity" "sha512-00o4I+DVrefhv+nX0ulyi3biSHCPDe+yLv5o/p6d/UVlirijB8E16FtfwSAi4g3tcqrQ4lRAqQSoFEZJehYEcw=="
-  "resolved" "https://registry.npmjs.org/reflect.getprototypeof/-/reflect.getprototypeof-1.0.10.tgz"
-  "version" "1.0.10"
-=======
 reflect.getprototypeof@^1.0.6, reflect.getprototypeof@^1.0.9:
   version "1.0.10"
   resolved "https://registry.npmjs.org/reflect.getprototypeof/-/reflect.getprototypeof-1.0.10.tgz"
   integrity sha512-00o4I+DVrefhv+nX0ulyi3biSHCPDe+yLv5o/p6d/UVlirijB8E16FtfwSAi4g3tcqrQ4lRAqQSoFEZJehYEcw==
->>>>>>> origin/dev-pycloudmr
   dependencies:
     call-bind "^1.0.8"
     define-properties "^1.2.1"
@@ -10892,24 +10843,17 @@ unquote@~1.1.1:
   resolved "https://registry.npmjs.org/unquote/-/unquote-1.1.1.tgz"
   integrity sha512-vRCqFv6UhXpWxZPyGDh/F3ZpNv8/qo7w6iufLpQg9aKnQ71qM4B5KiI7Mia9COcjEhrO9LueHpMYjYzsWH3OIg==
 
-<<<<<<< HEAD
-"unzipit@^1.4.3":
-  "integrity" "sha512-gsq2PdJIWWGhx5kcdWStvNWit9FVdTewm4SEG7gFskWs+XCVaULt9+BwuoBtJiRE8eo3L1IPAOrbByNLtLtIlg=="
-  "resolved" "https://registry.npmjs.org/unzipit/-/unzipit-1.4.3.tgz"
-  "version" "1.4.3"
+unzipit@^1.4.3:
+  version "1.4.3"
+  resolved "https://registry.npmjs.org/unzipit/-/unzipit-1.4.3.tgz"
+  integrity sha512-gsq2PdJIWWGhx5kcdWStvNWit9FVdTewm4SEG7gFskWs+XCVaULt9+BwuoBtJiRE8eo3L1IPAOrbByNLtLtIlg==
   dependencies:
-    "uzip-module" "^1.0.2"
+    uzip-module "^1.0.2"
 
-"upath@^1.2.0":
-  "integrity" "sha512-aZwGpamFO61g3OlfT7OQCHqhGnW43ieH9WZeP7QxN/G/jS4jfqUkZxoryvJgVPEcrl5NL/ggHsSmLMHuH64Lhg=="
-  "resolved" "https://registry.npmjs.org/upath/-/upath-1.2.0.tgz"
-  "version" "1.2.0"
-=======
 upath@^1.2.0:
   version "1.2.0"
   resolved "https://registry.npmjs.org/upath/-/upath-1.2.0.tgz"
   integrity sha512-aZwGpamFO61g3OlfT7OQCHqhGnW43ieH9WZeP7QxN/G/jS4jfqUkZxoryvJgVPEcrl5NL/ggHsSmLMHuH64Lhg==
->>>>>>> origin/dev-pycloudmr
 
 update-browserslist-db@^1.1.3:
   version "1.1.3"
@@ -10974,22 +10918,15 @@ uuid@^8.3.2:
   resolved "https://registry.npmjs.org/uuid/-/uuid-8.3.2.tgz"
   integrity sha512-+NYs2QeMWy+GWFOEm9xnn6HCDp0l7QBD7ml8zLUmJ+93Q5NF0NocErnwkTkXVFNiX3/fpC6afS8Dhb/gz7R7eg==
 
-<<<<<<< HEAD
-"uzip-module@^1.0.2":
-  "integrity" "sha512-AMqwWZaknLM77G+VPYNZLEruMGWGzyigPK3/Whg99B3S6vGHuqsyl5ZrOv1UUF3paGK1U6PM0cnayioaryg/fA=="
-  "resolved" "https://registry.npmjs.org/uzip-module/-/uzip-module-1.0.3.tgz"
-  "version" "1.0.3"
+uzip-module@^1.0.2:
+  version "1.0.3"
+  resolved "https://registry.npmjs.org/uzip-module/-/uzip-module-1.0.3.tgz"
+  integrity sha512-AMqwWZaknLM77G+VPYNZLEruMGWGzyigPK3/Whg99B3S6vGHuqsyl5ZrOv1UUF3paGK1U6PM0cnayioaryg/fA==
 
-"v8-to-istanbul@^8.1.0":
-  "integrity" "sha512-FGtKtv3xIpR6BYhvgH8MI/y78oT7d8Au3ww4QIxymrCtZEh5b8gCw2siywE+puhEmuWKDtmfrvF5UlB298ut3w=="
-  "resolved" "https://registry.npmjs.org/v8-to-istanbul/-/v8-to-istanbul-8.1.1.tgz"
-  "version" "8.1.1"
-=======
 v8-to-istanbul@^8.1.0:
   version "8.1.1"
   resolved "https://registry.npmjs.org/v8-to-istanbul/-/v8-to-istanbul-8.1.1.tgz"
   integrity sha512-FGtKtv3xIpR6BYhvgH8MI/y78oT7d8Au3ww4QIxymrCtZEh5b8gCw2siywE+puhEmuWKDtmfrvF5UlB298ut3w==
->>>>>>> origin/dev-pycloudmr
   dependencies:
     "@types/istanbul-lib-coverage" "^2.0.1"
     convert-source-map "^1.6.0"
@@ -11561,22 +11498,15 @@ yargs@^16.2.0:
     y18n "^5.0.5"
     yargs-parser "^20.2.2"
 
-<<<<<<< HEAD
-"yocto-queue@^0.1.0":
-  "integrity" "sha512-rVksvsnNCdJ/ohGc6xgPwyN8eheCxsiLM8mxuE/t/mOVqJewPuO1miLpTHQiRgTKCLexL4MeAFVagts7HmNZ2Q=="
-  "resolved" "https://registry.npmjs.org/yocto-queue/-/yocto-queue-0.1.0.tgz"
-  "version" "0.1.0"
-
-"zarrita@^0.5.0":
-  "integrity" "sha512-BN/miFnvBuVqLLObrI08crkbyi+Oc/HWZpgCmWusrWUNIauIV9vR5zlvpSAnhOjZwjomEKFb728K7ax7FiDgJQ=="
-  "resolved" "https://registry.npmjs.org/zarrita/-/zarrita-0.5.2.tgz"
-  "version" "0.5.2"
-  dependencies:
-    "@zarrita/storage" "^0.1.1"
-    "numcodecs" "^0.3.2"
-=======
 yocto-queue@^0.1.0:
   version "0.1.0"
   resolved "https://registry.npmjs.org/yocto-queue/-/yocto-queue-0.1.0.tgz"
   integrity sha512-rVksvsnNCdJ/ohGc6xgPwyN8eheCxsiLM8mxuE/t/mOVqJewPuO1miLpTHQiRgTKCLexL4MeAFVagts7HmNZ2Q==
->>>>>>> origin/dev-pycloudmr
+
+zarrita@^0.5.0:
+  version "0.5.2"
+  resolved "https://registry.npmjs.org/zarrita/-/zarrita-0.5.2.tgz"
+  integrity sha512-BN/miFnvBuVqLLObrI08crkbyi+Oc/HWZpgCmWusrWUNIauIV9vR5zlvpSAnhOjZwjomEKFb728K7ax7FiDgJQ==
+  dependencies:
+    "@zarrita/storage" "^0.1.1"
+    numcodecs "^0.3.2"
